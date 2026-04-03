@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: admins
+  description: Team Admin
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: admins@sybyl.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
+  parent: backstage
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: sunil.varghese
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: sunil.varghese@sybyl..com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Luna&backgroundColor=transparent
+  memberOf: [admins]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: smart.alapatt
+spec:
+  profile:
+    displayName: Smart Alapatt
+    email: smart.alapatt@sybyl.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Leo&backgroundColor=transparent
+  memberOf: [admins]
