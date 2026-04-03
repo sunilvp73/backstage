@@ -6,7 +6,7 @@ metadata:
 spec:
   type: trpc
   lifecycle: experimental
-  owner: team-c
+  owner: admins
   definition: |
     import { z } from 'zod/v3';
     import { publicProcedure, router } from '../trpc';

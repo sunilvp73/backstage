@@ -4,6 +4,6 @@ metadata:
   name: playback
   description: Everything related to audio playback
 spec:
-  owner: user:frank.tiernan
+  owner: user:sunil.varghese
   subdomainOf: audio
   type: product-group

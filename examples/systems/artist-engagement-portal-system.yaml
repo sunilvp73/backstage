@@ -6,6 +6,6 @@ metadata:
   tags:
     - portal
 spec:
-  owner: team-a
+  owner: admins
   domain: artists
   type: service

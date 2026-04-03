@@ -6,5 +6,5 @@ metadata:
 spec:
   type: library
   lifecycle: experimental
-  owner: team-c
+  owner: admins
   system: audio-playback

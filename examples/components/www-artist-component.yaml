@@ -8,6 +8,6 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: team-a
+  owner: admins
   system: artist-engagement-portal
   consumesApis: ['component:artist-lookup']
